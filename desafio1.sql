@@ -80,6 +80,40 @@ VALUES
     (9, 'No guarantees', 2015, 5),
     (10, 'Apparatus', 2015, 6);
 
+CREATE TABLE IF NOT EXISTS `SpotifyClone`.`seguindo_artistas` (
+    id_usuario INT NOT NULL,
+    id_artista INT NOT NULL,
+    PRIMARY KEY (id_usuario, id_artista),
+    FOREIGN KEY (id_usuario) REFERENCES `SpotifyClone`.`usuario` (id_usuario),
+    FOREIGN KEY (id_artista) REFERENCES `SpotifyClone`.`artistas` (id_artista)
+) ENGINE = InnoDB;
+
+INSERT INTO
+    `SpotifyClone`.`seguindo_artistas`
+VALUES
+    (1, 1),
+    (1, 4),
+    (1, 3),
+    (2, 1),
+    (2, 4),
+    (3, 2),
+    (3, 1),
+    (4, 4),
+    (5, 5),
+    (5, 6),
+    (6, 6),
+    (6, 3),
+    (6, 1),
+    (7, 2),
+    (7, 5),
+    (8, 1),
+    (8, 5),
+    (9, 6),
+    (9, 4),
+    (9, 3),
+    (10, 2),
+    (10, 6);
+
 CREATE TABLE IF NOT EXISTS `SpotifyClone`.`cancoes` (
     `id_cancao` INT NOT NULL AUTO_INCREMENT,
     `nome` VARCHAR(45) NOT NULL,
@@ -134,38 +168,6 @@ VALUES
     (38, "Wouldn't It Be Nice", 213, 10, 6),
     (39, "Baby", 136, 10, 6),
     (40, "You Make Me Feel So..", 83, 10, 6);
-CREATE TABLE IF NOT EXISTS `SpotifyClone`.`seguindo_artistas` (
-        `id_usuario` INT NOT NULL,
-        `id_artista` INT NOT NULL,
-        PRIMARY KEY (`id_usuario`, `id_artista`),
-        FOREIGN KEY (`id_usuario`) REFERENCES `SpotifyClone`.`usuario` (`id_usuario`),
-        FOREIGN KEY (`id_artista`) REFERENCES `SpotifyClone`.`artistas` (`id_artista`)
-    ) ENGINE = InnoDB;
-INSERT INTO
-    `SpotifyClone`.`seguindo_artistas`
-VALUES
-    (1, 1),
-    (1, 4),
-    (1, 3),
-    (2, 1),
-    (2, 4),
-    (3, 2),
-    (3, 1),
-    (4, 4),
-    (5, 5),
-    (5, 6),
-    (6, 6),
-    (6, 3),
-    (6, 1),
-    (7, 2),
-    (7, 5),
-    (8, 1),
-    (8, 5),
-    (9, 6),
-    (9, 4),
-    (9, 3),
-    (10, 2),
-    (10, 6);
 CREATE TABLE IF NOT EXISTS `SpotifyClone`.`historico` (
         `id_usuario` INT NOT NULL,
         `id_cancao` INT NOT NULL,
