@@ -116,7 +116,7 @@ VALUES
 
 CREATE TABLE IF NOT EXISTS `SpotifyClone`.`cancoes` (
     `id_cancao` INT NOT NULL AUTO_INCREMENT,
-    `nome` VARCHAR(45) NOT NULL,
+    `nome` VARCHAR(150) NOT NULL,
     `duracao_segundos` INT NOT NULL,
     `id_album` INT NOT NULL,
     `id_artista` INT NOT NULL,
