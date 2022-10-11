@@ -1,9 +1,14 @@
-# Projeto One-For-All
+# Projeto Spotify Clone
 
 ## Descrição geral
 
-
 Foi recebida uma tabela não normalizada que simulava uma versão simplificada do banco de dados do Spotify. A tabela foi normalizada e o banco de dados foi modelado e populado a partir dela.
+
+### Diagrama ER do banco de dados modelado
+
+
+![Captura de tela de 2022-10-10 23-19-37](https://user-images.githubusercontent.com/74635536/194982525-81120bcf-ea1c-48f5-be5d-2325ce2fa23c.png)
+
 
 ### Queries
 
@@ -27,20 +32,15 @@ quantidade_reproducoes.sql - exibe o nome da canção e a quantidade de vezes qu
 
 nomes_trocados.sql - retorna os nomes das músicas com uma parte substituída por outra palavra.
 
-![Captura de tela de 2022-10-10 23-19-37](https://user-images.githubusercontent.com/74635536/194982525-81120bcf-ea1c-48f5-be5d-2325ce2fa23c.png)
-
-### Diagrama ER do banco de dados modelado
-
-
 
 ## Conceitos aplicados
 
-Modelagem de banco de dados<br>
+Normalização do banco de dados seguindo as Formas Normais<br>
 Construção um diagrama entidade-relacionamento (diagrama ER)<br>
 Criação e modelagem de tabelas com base em um diagrama ER<br>
+Modelagem de banco de dados<br>
 Identificação de entidades, atributos e relacionamentos<br>
 Criação de um banco de dados utilizando MySQL Workbench<br>
-Normalização do banco de dados seguindo as Formas Normais<br>
 Principais funções de MySQL<br>
 
 
