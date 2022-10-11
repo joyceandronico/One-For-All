@@ -8,7 +8,5 @@ SELECT
 FROM
     SpotifyClone.usuario AS usuario
     INNER JOIN SpotifyClone.historico AS historico ON usuario.id_usuario = historico.id_usuario
-GROUP BY
-    usuario.nome
-ORDER BY
-    usuario.nome
+GROUP BY usuario.nome
+ORDER BY usuario.nome

@@ -4,10 +4,8 @@ SELECT
 FROM
     SpotifyClone.cancoes AS cancoes
     INNER JOIN SpotifyClone.historico AS historico ON cancoes.id_cancao = historico.id_cancao
-GROUP BY
-    cancao
+GROUP BY cancao
 ORDER BY
     reproducoes desc,
     cancao
-LIMIT
-    2;
+LIMIT 2;
