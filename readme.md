@@ -1,4 +1,4 @@
-# Projeto Spotify Clone
+# Projeto Spotify Clone - banco de dados MySQL
 
 ## Descrição geral
 
