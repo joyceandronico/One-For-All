@@ -14,7 +14,7 @@ Foi recebida uma tabela não normalizada que simulava uma versão simplificada d
 
 ### estatisticas_musicais.sql<br>
 
-retorna a quantidade de canções, artistas e álbuns<br>
+Retorna a quantidade de canções, artistas e álbuns<br>
 
 ### historico-reproducao.sql <br>
 
@@ -26,7 +26,7 @@ Retorna o nome da pessoa usuaria e se ela estava ativa ou inativa no ano de 2021
 
 ### hits_do_momento.sql<br>
 
-Retorna o nome da canção e a quantidade de pessoas que já ouviram<br>
+Exibe o nome da canção e a quantidade de pessoas que já ouviram<br>
 
 ### faturamento_atual.sql <br>
 
