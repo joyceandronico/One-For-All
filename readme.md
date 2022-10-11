@@ -22,7 +22,7 @@ Retorna o nome da pessoa usuária, a quantidade de músicas ouvidas por ela e a 
 
 ### condicao_usuario.sql <br>
 
-Retorna o nome da pessoa usuaria e se ela estava ativa ou inativa no ano de 2021 <br>
+Retorna o nome da pessoa usuária e se ela estava ativa ou inativa no ano de 2021 <br>
 
 ### hits_do_momento.sql<br>
 
