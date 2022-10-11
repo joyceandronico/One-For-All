@@ -44,15 +44,15 @@ Criação de um banco de dados utilizando MySQL Workbench<br>
 Principais funções de MySQL<br>
 
 
-## Clonando o projeto
+## Clone o projeto
 
 ```bash
-git clone git@github.com:joyceandronico/One-For-All.git
+git@github.com:joyceandronico/spotify-clone.git
 ```
 
 ## Acesse a pasta do projeto
 
 ```bash
-cd One-For-All
+cd spotify-clone
 ```
 
