@@ -82,9 +82,5 @@ Utilize o MySQL Workbench ou programa semelhante para recriar o banco de dados e
 
 #### Link para download do MySQL Workbench
 
-```bash
+
 https://dev.mysql.com/downloads/workbench/
-```
-
-
-
