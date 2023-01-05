@@ -2,7 +2,7 @@
 
 ## Descrição geral
 
-Foi recebida uma tabela não normalizada que simulava uma versão simplificada do banco de dados do Spotify. A tabela foi normalizada e o banco de dados foi modelado e populado a partir dela.
+Banco de dados modelado a partir de uma tabela não normalizada que simulava uma versão simplificada do banco de dados do Spotify
 
 ### Diagrama ER do banco de dados 
 
